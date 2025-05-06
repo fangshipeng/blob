@@ -29,6 +29,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '介绍', link: '/vue/index.md' },
+          { text: '右键菜单的封装', link: '/vue/ContextMenu.md' },
+          { text: '静态资源的动态加载', link: '/vue/静态资源的动态加载.md' },
         ]
       },
       {
