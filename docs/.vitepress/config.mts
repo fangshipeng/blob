@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 配置站点的基本信息
+  base: '/blog/',
   lang: 'zh-CN',
   title: "房士鹏的博客",
   description: "关于前端的知识分享",
@@ -31,6 +33,7 @@ export default defineConfig({
           { text: '介绍', link: '/vue/index.md' },
           { text: '右键菜单的封装', link: '/vue/ContextMenu.md' },
           { text: '静态资源的动态加载', link: '/vue/静态资源的动态加载.md' },
+          { text: '类型丢失', link: '/vue/类型丢失.md' },
         ]
       },
       {
@@ -47,6 +50,7 @@ export default defineConfig({
           { text: '并发任务控制', link: '/面试分享/并发任务控制.md' },
           { text: '大量任务执行的调度', link: '/面试分享/大量任务执行的调度.md' },
           { text: '大文件分片', link: '/面试分享/大文件分片.md' },
+          { text: '手写API方法', link: '/面试分享/手写API方法.md' },
         ]
       },
     ],
