@@ -40,17 +40,24 @@ export default defineConfig({
         text: '现代化CSS',
         collapsed: true,
         items: [
-          { text: '如何实现高度的自动过渡', link: '/现代化CSS/如何实现高度的自动过渡.md' },
+          { text: '如何实现高度的自动过渡', link: '/css/如何实现高度的自动过渡.md' },
+        ]
+      },
+      {
+        text: 'git',
+        collapsed: true,
+        items: [
+          { text: 'git基本命令', link: '/git/index.md' },
         ]
       },
       {
         text: '面试分享',
         collapsed: true,
         items: [
-          { text: '并发任务控制', link: '/面试分享/并发任务控制.md' },
-          { text: '大量任务执行的调度', link: '/面试分享/大量任务执行的调度.md' },
-          { text: '大文件分片', link: '/面试分享/大文件分片.md' },
-          { text: '手写API方法', link: '/面试分享/手写API方法.md' },
+          { text: '并发任务控制', link: '/interview/并发任务控制.md' },
+          { text: '大量任务执行的调度', link: '/interview/大量任务执行的调度.md' },
+          { text: '大文件分片', link: '/interview/大文件分片.md' },
+          { text: '手写API方法', link: '/interview/手写API方法.md' },
         ]
       },
     ],
