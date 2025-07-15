@@ -11,6 +11,7 @@ Git 是一个分布式版本控制系统，广泛用于代码管理和协作开�
 安装完成后，配置用户名和邮箱：
 
 ```bash
+# 增加测试
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
