@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "房士鹏的博客"
-  text: "关于前端的知识分享"
+  name: '房士鹏的博客 最新修改'
+  text: '关于前端的知识分享'
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
