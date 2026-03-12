@@ -9,6 +9,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Build output
+# 忽略docs/.vitepress/dist/，因为它是Vitepress的构建输出目录
+docs/.vitepress/dist/
 /dist/
 build/
 
