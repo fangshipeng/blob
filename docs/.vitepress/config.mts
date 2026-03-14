@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	// 配置站点的基本信息
-	base: '/blob_pages/', // 设置为 GitHub Pages 的仓库名，确保资源正常加载
+	base: '/blob/', // 设置为 GitHub Pages 的仓库名，确保资源正常加载
 	lang: 'zh-CN',
 	title: '房士鹏的博客',
 	description: '关于前端的知识分享',
